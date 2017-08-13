@@ -21,5 +21,9 @@ body {
     height: 200px;
 }
 
+.bgimg {
+    background-repeat: no-repeat;
+}
+
 
 
