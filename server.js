@@ -9,6 +9,14 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/hbd3', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'hbd3.html'));
+});
+
+app.get('/hbd2', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'hbd2.html'));
+});
+
 app.get('/hbd1', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'hbd1.html'));
 });
